@@ -1,0 +1,12 @@
+/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/transformers/trainer.py:1048: FutureWarning: This method is deprecated, use `Trainer.is_world_process_zero()` instead.
+  warnings.warn("This method is deprecated, use `Trainer.is_world_process_zero()` instead.", FutureWarning)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/transformers/trainer.py", line 266, in __init__
+    self.setup_comet()
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/transformers/trainer.py", line 504, in setup_comet
+    experiment = comet_ml.Experiment(**args)
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/comet_ml/__init__.py", line 202, in __init__
+    raise ValueError(
+ValueError: Comet.ml requires an API key. Please provide as the first argument to Experiment(api_key) or as an environment variable named COMET_API_KEY 
+>>> tra[K[K[Kquit()

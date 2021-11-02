@@ -1,0 +1,7 @@
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Epoch:   0%|                                              | 0/3 [00:00<?, ?it/s]
+Iteration:   0%|                                        | 0/120 [00:00<?, ?it/s][A
+Iteration:   1%|▎                               | 1/120 [00:28<56:42, 28.59s/it][A

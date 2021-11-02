@@ -1,0 +1,26 @@
+2020-09-10 16:09:14,935 DEBUG   MainThread:4255 [wandb_config.py:_load_defaults():154] no defaults not found in config-defaults.yaml
+2020-09-10 16:09:15,086 DEBUG   MainThread:4255 [meta.py:_setup_code_git():49] probe for git information
+2020-09-10 16:09:15,190 DEBUG   MainThread:4255 [run_manager.py:__init__():547] Initialized sync for huggingface/o22d7y4y
+2020-09-10 16:09:15,198 INFO    MainThread:4255 [run_manager.py:wrap_existing_process():1149] wrapping existing process 4191
+2020-09-10 16:09:15,199 WARNING MainThread:4255 [io_wrap.py:register():108] SIGWINCH handler was not None: <Handlers.SIG_DFL: 0>
+2020-09-10 16:09:15,418 INFO    MainThread:4255 [run_manager.py:init_run():928] system metrics and metadata threads started
+2020-09-10 16:09:15,419 INFO    MainThread:4255 [run_manager.py:init_run():967] upserting run before process can begin, waiting at most 10 seconds
+2020-09-10 16:09:15,593 INFO    Thread-15 :4255 [run_manager.py:_upsert_run():1056] saving pip packages
+2020-09-10 16:09:15,596 INFO    Thread-15 :4255 [run_manager.py:_upsert_run():1058] initializing streaming files api
+2020-09-10 16:09:15,597 INFO    Thread-15 :4255 [run_manager.py:_upsert_run():1065] unblocking file change observer, beginning sync with W&B servers
+2020-09-10 16:09:15,598 INFO    MainThread:4255 [run_manager.py:wrap_existing_process():1166] informing user process we are ready to proceed
+2020-09-10 16:09:15,601 INFO    MainThread:4255 [run_manager.py:_sync_etc():1298] entering loop for messages from user process
+2020-09-10 16:09:16,094 INFO    Thread-4  :4255 [run_manager.py:_on_file_modified():692] file/dir modified: /Users/aviaronkraft/NonsenseDetector/wandb/run-20200910_160910-o22d7y4y/config.yaml
+2020-09-10 16:09:16,369 INFO    Thread-4  :4255 [run_manager.py:_on_file_created():681] file/dir created: /Users/aviaronkraft/NonsenseDetector/wandb/run-20200910_160910-o22d7y4y/requirements.txt
+2020-09-10 16:09:16,370 INFO    Thread-4  :4255 [run_manager.py:_on_file_created():681] file/dir created: /Users/aviaronkraft/NonsenseDetector/wandb/run-20200910_160910-o22d7y4y/wandb-metadata.json
+2020-09-10 16:09:16,370 INFO    Thread-4  :4255 [run_manager.py:_on_file_created():681] file/dir created: /Users/aviaronkraft/NonsenseDetector/wandb/run-20200910_160910-o22d7y4y/output.log
+2020-09-10 16:09:32,149 INFO    Thread-4  :4255 [run_manager.py:_on_file_modified():692] file/dir modified: /Users/aviaronkraft/NonsenseDetector/wandb/run-20200910_160910-o22d7y4y/wandb-metadata.json
+2020-09-10 16:09:45,206 INFO    Thread-4  :4255 [run_manager.py:_on_file_modified():692] file/dir modified: /Users/aviaronkraft/NonsenseDetector/wandb/run-20200910_160910-o22d7y4y/output.log
+2020-09-10 16:09:45,208 INFO    Thread-4  :4255 [run_manager.py:_on_file_created():681] file/dir created: /Users/aviaronkraft/NonsenseDetector/wandb/run-20200910_160910-o22d7y4y/wandb-events.jsonl
+2020-09-10 16:09:45,209 INFO    Thread-4  :4255 [run_manager.py:_on_file_created():681] file/dir created: /Users/aviaronkraft/NonsenseDetector/wandb/run-20200910_160910-o22d7y4y/wandb-summary.json
+2020-09-10 16:09:45,211 INFO    Thread-4  :4255 [run_manager.py:_on_file_created():681] file/dir created: /Users/aviaronkraft/NonsenseDetector/wandb/run-20200910_160910-o22d7y4y/media/graph/graph_0_summary_f89d80b1.graph.json
+2020-09-10 16:09:45,211 INFO    Thread-4  :4255 [run_manager.py:_on_file_created():681] file/dir created: /Users/aviaronkraft/NonsenseDetector/wandb/run-20200910_160910-o22d7y4y/media
+2020-09-10 16:09:45,212 INFO    Thread-4  :4255 [run_manager.py:_on_file_created():681] file/dir created: /Users/aviaronkraft/NonsenseDetector/wandb/run-20200910_160910-o22d7y4y/media/graph
+2020-09-10 16:09:48,212 INFO    Thread-4  :4255 [run_manager.py:_on_file_modified():692] file/dir modified: /Users/aviaronkraft/NonsenseDetector/wandb/run-20200910_160910-o22d7y4y/wandb-metadata.json
+1] file/dir created: /Users/aviaronkraft/NonsenseDetector/wandb/run-20200910_160910-o22d7y4y/media/graph
+2020-09-10 16:09:48,212 INFO    Thread-4  :4255 [o22d7y4y:run_manager.py:_on_file_modified():692] file/dir modified: /Users/aviaronkraft/NonsenseDetector/wandb/run-20200910_160910-o22d7y4y/wandb-metadata.json

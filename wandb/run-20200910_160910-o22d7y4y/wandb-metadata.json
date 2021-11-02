@@ -1,0 +1,22 @@
+{
+    "root": "/Users/aviaronkraft/NonsenseDetector",
+    "program": "testing.py",
+    "git": {
+        "remote": "https://github.com/funwiththoughts/NonsenseDetector.git",
+        "commit": "cad2021e8549a263eb1116ecd130a1b75ae1a135"
+    },
+    "email": "avikraft@rogers.com",
+    "startedAt": "2020-09-10T20:09:10.988417",
+    "host": "MacBook-Air.local",
+    "username": "aviaronkraft",
+    "executable": "/Users/aviaronkraft/anaconda3/bin/python",
+    "os": "macOS-10.15.6-x86_64-i386-64bit",
+    "python": "3.8.3",
+    "cpu_count": 4,
+    "args": [],
+    "state": "running",
+    "jobType": null,
+    "mode": "run",
+    "project": "huggingface",
+    "heartbeatAt": "2020-09-10T20:09:47.529164"
+}

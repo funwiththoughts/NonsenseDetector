@@ -1,0 +1,53 @@
+/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/transformers/trainer.py:1048: FutureWarning: This method is deprecated, use `Trainer.is_world_process_zero()` instead.
+  warnings.warn("This method is deprecated, use `Trainer.is_world_process_zero()` instead.", FutureWarning)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/transformers/trainer.py", line 266, in __init__
+    self.setup_comet()
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/transformers/trainer.py", line 504, in setup_comet
+    experiment = comet_ml.Experiment(**args)
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/comet_ml/__init__.py", line 202, in __init__
+    raise ValueError(
+ValueError: Comet.ml requires an API key. Please provide as the first argument to Experiment(api_key) or as an environment variable named COMET_API_KEY 
+>>> Tran[Kiner.is_world_process_zero()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: is_world_process_zero() missing 1 required positional argument: 'self'
+>>> trainer = Ta[Ka[Krainer()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/transformers/trainer.py", line 224, in __init__
+    assert (
+AssertionError: You must provide a model to use `Trainer`, either by using the `model` argument or the `model_init` argument.
+>>> 
+>>> trainer = Trainer(model=model)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/transformers/trainer.py", line 259, in __init__
+    self.setup_wandb()
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/transformers/trainer.py", line 480, in setup_wandb
+    wandb.watch(
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/wandb/__init__.py", line 187, in watch
+    graph = wandb_torch.TorchGraph.hook_torch(
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/wandb/wandb_torch.py", line 295, in hook_torch
+    graph.hook_torch_modules(model, criterion, graph_idx=graph_idx)
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/wandb/wandb_torch.py", line 337, in hook_torch_modules
+    raise ValueError(
+ValueError: You can only call `wandb.watch` once per model.  Pass a new instance of the model if you need to call wandb.watch again in your code.
+>>> model = DistilBertForSequenceClassification.from_pretrained("distilbert-base-uncased")
+Some weights of the model checkpoint at distilbert-base-uncased were not used when initializing DistilBertForSequenceClassification: ['vocab_transform.weight', 'vocab_transform.bias', 'vocab_layer_norm.weight', 'vocab_layer_norm.bias', 'vocab_projector.weight', 'vocab_projector.bias']
+- This IS expected if you are initializing DistilBertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing DistilBertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['pre_classifier.weight', 'pre_classifier.bias', 'classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+>>> trainer = ta[K[KTrainer(model=model)
+>>> Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/transformers/trainer.py", line 266, in __init__
+    self.setup_comet()
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/transformers/trainer.py", line 504, in setup_comet
+    experiment = comet_ml.Experiment(**args)
+  File "/Users/aviaronkraft/anaconda3/lib/python3.8/site-packages/comet_ml/__init__.py", line 202, in __init__
+    raise ValueError(
+ValueError: Comet.ml requires an API key. Please provide as the first argument to Experiment(api_key) or as an environment variable named COMET_API_KEY 
+quit()
