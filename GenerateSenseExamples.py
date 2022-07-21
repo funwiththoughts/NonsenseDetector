@@ -14,7 +14,6 @@ for i in range(0,len(WORDS)):
     words.append(word)
 
 print(len(words))
-print(fuck)
 
 with open('wordsToRemove.txt','r') as f:
     toRemove = [x[0:-1] for x in f.readlines()]
